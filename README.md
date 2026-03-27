@@ -23,8 +23,10 @@ Com o app, o usuário pode:
 ---
 ## Demonstração
 
+[Assista ao vídeo](https://youtube.com/shorts/C23WneSY6sw)
+
 ###  Gif do app
-![Demo](docs/images/demo.gif)
+![Demo](docs/images/fiapvideo.gif)
 
 ###  Tela de Login
 ![Login](docs/images/loginfiap.png)
