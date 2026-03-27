@@ -118,10 +118,14 @@ Depois:
 
 ## d) Demonstração
 
-*(Adicionar depois)*
+### 🔐 Tela de Login
+![Login](docs/images/loginfiap.png)
 
-* Prints das telas do app
-* GIF ou vídeo demonstrando o funcionamento
+### 👤 Tela de Perfil
+![Perfil](docs/images/perfilfiap.png)
+
+### 🛗 Tela de Elevadores
+![Elevadores](docs/images/elevadorfiap.png)
 
 ---
 
