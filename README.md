@@ -118,14 +118,20 @@ Depois:
 
 ## d) Demonstração
 
-### 🔐 Tela de Login
+###  Tela de Login
 ![Login](docs/images/loginfiap.png)
 
-### 👤 Tela de Perfil
+###  Tela de Perfil
 ![Perfil](docs/images/perfilfiap.png)
 
-### 🛗 Tela de Elevadores
+###  Tela de Elevadores
 ![Elevadores](docs/images/elevadorfiap.png)
+
+###  Tela de Alert elevadores
+![Alert](docs/images/alertfiap.png)
+
+###  Tela de Suporte
+![Suporte](docs/images/suportefiap.png)
 
 ---
 
