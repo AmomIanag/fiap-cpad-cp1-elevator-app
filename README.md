@@ -20,6 +20,27 @@ Com o app, o usuário pode:
 
 * Solicitar o elevador **antes mesmo de chegar ao local**
 * Fazer isso diretamente da sala de aula, por exemplo, a aula pode estar acabando e ele já chama o elevador para poupar tempo
+---
+## Demonstração
+
+###  Gif do app
+![Demo](docs/images/demo.gif)
+
+###  Tela de Login
+![Login](docs/images/loginfiap.png)
+
+###  Tela de Perfil
+![Perfil](docs/images/perfilfiap.png)
+
+###  Tela de Elevadores
+![Elevadores](docs/images/elevadorfiap.png)
+
+###  Tela de Alert elevadores
+![Alert](docs/images/alertfiap.png)
+
+###  Tela de Suporte
+![Suporte](docs/images/suportefiap.png)
+---
 
 ### Funcionalidades
 
@@ -113,25 +134,6 @@ Depois:
 * Pressione **"a"** para abrir no Android Emulator
   ou
 * Escaneie o QR Code com o Expo Go
-
----
-
-## d) Demonstração
-
-###  Tela de Login
-![Login](docs/images/loginfiap.png)
-
-###  Tela de Perfil
-![Perfil](docs/images/perfilfiap.png)
-
-###  Tela de Elevadores
-![Elevadores](docs/images/elevadorfiap.png)
-
-###  Tela de Alert elevadores
-![Alert](docs/images/alertfiap.png)
-
-###  Tela de Suporte
-![Suporte](docs/images/suportefiap.png)
 
 ---
 
