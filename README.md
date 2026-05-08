@@ -21,27 +21,24 @@ Com o app, o usuário pode:
 * Solicitar o elevador **antes mesmo de chegar ao local**
 * Fazer isso diretamente da sala de aula, por exemplo, a aula pode estar acabando e ele já chama o elevador para poupar tempo
 ---
-## Demonstração
-
-[Assista ao vídeo](https://youtube.com/shorts/C23WneSY6sw)
 
 ###  Gif do app
-![Demo](docs/images/fiapvideo.gif)
+![Demo](docs/images/atualizado.gif)
 
 ###  Tela de Login
-![Login](docs/images/loginfiap.png)
+![Login](docs/images/telaloginatt.png)
 
 ###  Tela de Perfil
-![Perfil](docs/images/perfilfiap.png)
+![Perfil](docs/images/telainicialatt.png)
 
 ###  Tela de Elevadores
-![Elevadores](docs/images/elevadorfiap.png)
+![Elevadores](docs/images/telaelevatoratt.png)
 
-###  Tela de Alert elevadores
-![Alert](docs/images/alertfiap.png)
+###  Tela de cadastro
+![Cadastro](docs/images/telacadastro.png)
 
 ###  Tela de Suporte
-![Suporte](docs/images/suportefiap.png)
+![Suporte](docs/images/telasuporteatt.png)
 ---
 
 ### Funcionalidades
