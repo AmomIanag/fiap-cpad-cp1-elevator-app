@@ -23,7 +23,7 @@ Com o app, o usuário pode:
 ---
 
 ###  Gif do app
-![Demo](docs/images/atualizado.gif)
+<img src="docs/images/atualizado.gif" width="250">
 
 ###  Tela de Login
 ![Login](docs/images/telaloginatt.png)
