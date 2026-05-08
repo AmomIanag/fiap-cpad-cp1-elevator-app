@@ -99,6 +99,11 @@ cd meu-app
 # Instalar dependências
 npm install
 ```
+Caso o npm install de erro rode:
+```bash
+npm install react@19.2.6 react-dom@19.2.6
+```
+e de npm install de novo
 Bibliotecas utilizadas
 
 ```bash
@@ -111,24 +116,6 @@ npx expo install @react-native-async-storage/async-storage
 npx expo install expo-image-picker
 npx expo install @expo/vector-icons
 ```
----
-
-### ⚠️ Possíveis erros e soluções
-
-####  Erro de dependência, caso seu npm install de erro rode esse código abaixo
-
-```bash
-npm install --legacy-peer-deps
-```
-
----
-
-#### Erro de módulo não encontrado, caso o seu app no emulador abra em uma tela cheia de código vermelho rode isso
-
-```bash
-npx expo install expo-linking
-```
-
 ---
 
 #### Limpar cache do Expo
@@ -188,101 +175,115 @@ FIAP-CPAD-CP1-ELEVATOR-APP-MAN
 └── README.md
 ```
 
- ## Decisões Técnicas
+## Decisões Técnicas
 
-O projeto foi organizado utilizando o Expo Router, com separação de rotas:
+O projeto foi organizado utilizando o **Expo Router**, com separação de rotas:
 
-(auth) → telas de autenticação
-(tabs) → navegação principal
-_layout.js → controle de navegação
----
-
-### Hooks utilizados
-
-useState → controle de estados
-useEffect → carregamento de sessão
-useContext → autenticação global
-useRouter → navegação entre telas
+- `(auth)` → telas de autenticação
+- `(tabs)` → navegação principal
+- `_layout.js` → controle de navegação
 
 ---
 
-### Navegação
+## Hooks Utilizados
 
-* Implementada com **Expo Router**
-* Uso de **Tabs** para navegação principal
-* Tela de login separada das abas (fluxo correto de autenticação)
+- `useState` → controle de estados
+- `useEffect` → carregamento de sessão
+- `useContext` → autenticação global
+- `useRouter` → navegação entre telas
 
 ---
 
-### Componentes criados
-Button.js
+## Navegação
+
+- Implementada com **Expo Router**
+- Uso de **Tabs** para navegação principal
+- Tela de login separada das abas
+
+---
+
+## Componentes Criados
+
+### Button.js
 
 Componente reutilizável de botão.
 
-Input.js
+### Input.js
 
 Componente reutilizável de input com validação visual.
 
-Header.js
+### Header.js
 
 Cabeçalho personalizado do aplicativo.
 
-CardAula.js
+### CardAula.js
 
 Card exibindo informações da próxima aula.
----
-### Context API
 
-Foi utilizado um AuthContext para:
-
-Login
-Logout
-Persistência de sessão
-Controle global do usuário
 ---
-### AsyncStorage
+
+## Context API
+
+Foi utilizado um `AuthContext` para:
+
+- Login
+- Logout
+- Persistência de sessão
+- Controle global do usuário
+
+---
+
+## AsyncStorage
 
 Utilizado para armazenar:
 
-Usuário cadastrado
-Sessão de login
-Foto de perfil
+- Usuário cadastrado
+- Sessão de login
+- Foto de perfil
+
 ---
-Expo Image Picker
+
+## Expo Image Picker
 
 Utilizado para:
 
-Escolher foto da galeria
-Atualizar foto do perfil
+- Escolher foto da galeria
+- Atualizar foto do perfil
+
 ---
 
-### Decisão do diferencial
-Escolhemos adicionar foto pois já tinhamos colocado isso como objetivo.
+## Decisão do Diferencial
+
+Escolhemos adicionar foto de perfil como diferencial do projeto.
+
 ---
-###  Próximos Passos
+
+## Próximos Passos
 
 Com mais tempo, o grupo implementaria:
 
-Integração com API real
-Banco de dados online
-Notificações push
-Histórico de chamadas do elevador
-Melhor estilização dos alerts
-Mais personalização do perfil
-Controle real de elevadores via IoT
+- Integração com API real
+- Banco de dados online
+- Notificações push
+- Histórico de chamadas do elevador
+- Melhor estilização dos alerts
+- Mais personalização do perfil
+- Controle real de elevadores via IoT
+
 ---
+
 ## Tecnologias Utilizadas
 
-React Native
-Expo
-Expo Router
-JavaScript
-React Context API
-AsyncStorage
-Expo Image Picker
-React Navigation
-Ionicons
-Android Studio
-Android Emulator Pixel 5 API
+- React Native
+- Expo
+- Expo Router
+- JavaScript
+- React Context API
+- AsyncStorage
+- Expo Image Picker
+- React Navigation
+- Ionicons
+- Android Studio
+- Android Emulator Pixel 5 API
 
 ---
